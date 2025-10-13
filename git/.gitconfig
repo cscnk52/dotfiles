@@ -1,0 +1,33 @@
+[credential "helperselector"]
+        selected = manager
+[user]
+        email = cscnk52@outlook.com
+        signingkey = 3FBAE23D6D7B02A0
+        name = Cason Kervis
+[commit]
+        gpgSign = true
+[init]
+[hub]
+        protocol = ssh
+[credential]
+        helper = manager
+[credential "https://dev.azure.com"]
+        useHttpPath = true
+[credential "github.com"]
+        username = cscnk52
+[credential "https://gitee.com"]
+        provider = generic
+[tag]
+        gpgSign = true
+[core]
+        autocrlf = input
+        longpaths = true
+[pull]
+        rebase = true
+[http]
+        sslbackend = schannel
+[diff]
+        algorithm = histogram
+[push]
+        autoSetupRemote = true
+        default = current
