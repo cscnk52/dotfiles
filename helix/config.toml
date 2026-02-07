@@ -1,8 +1,10 @@
-theme = "cscnk52"
+theme = "github_dark"
 
 [editor]
 true-color = true
 line-number = "relative"
+bufferline = "multiple"
+end-of-line-diagnostics = "error"
 
 [editor.auto-save]
 focus-lost = true
@@ -16,7 +18,7 @@ cursor-line = "hint"
 other-lines = "error"
 
 [editor.lsp]
-display-messages = true
+display-progress-messages = true
 display-inlay-hints = true
 
 [editor.soft-wrap]
