@@ -286,7 +286,13 @@ format = " | [$symbol($version)]($style)"
 format = " | [$symbol($version)]($style)"
 
 [shell]
-format = " | [$indicator]($style)"
+disabled = false
+format = "$indicator "
+fish_indicator = "[󰈺](bold cyan)"
+nu_indicator = "[](bold purple)"
+bash_indicator = "[](bold green)"
+zsh_indicator = "[](bold yellow)"
+powershell_indicator = "[󰨊](bold blue)"
 
 [shlvl]
 format = " | [$symbol$shlvl]($style)"
